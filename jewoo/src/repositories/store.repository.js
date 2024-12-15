@@ -123,7 +123,7 @@ export const addMissionToChallengeModel = async (data) => {
     }
   });
 
-  return challenge.id;
+  return created.id;
 }
 
 // 도전 미션 정보 가져오기
